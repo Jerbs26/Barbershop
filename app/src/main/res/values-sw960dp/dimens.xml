@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Existing scaled up -->
+    <dimen name="card_margin">140dp</dimen>
+    <dimen name="card_padding">48dp</dimen>
+    <dimen name="sidebar_width">260dp</dimen>
+    <dimen name="sidebar_text_size">18sp</dimen>
+    <dimen name="sidebar_profile_size">84dp</dimen>
+    <dimen name="sidebar_email_size">14sp</dimen>
+    <dimen name="title_text_size">42sp</dimen>
+    <dimen name="main_title_size">34sp</dimen>
+    <dimen name="label_text_size">20sp</dimen>
+    <dimen name="input_text_size">22sp</dimen>
+    <dimen name="button_text_size">22sp</dimen>
+    <dimen name="hero_text_size">100sp</dimen>
+    <dimen name="input_height">68dp</dimen>
+    <dimen name="button_height">76dp</dimen>
+    <dimen name="small_button_height">52dp</dimen>
+
+    <!-- MainActivity Responsive -->
+    <dimen name="nav_text_size">18sp</dimen>
+    <dimen name="nav_padding">22dp</dimen>
+    <dimen name="hero_height">560dp</dimen>
+    <dimen name="section_padding">56dp</dimen>
+    <dimen name="section_title_size">36sp</dimen>
+    <dimen name="body_text_size">20sp</dimen>
+    <dimen name="card_icon_size">56sp</dimen>
+    <dimen name="card_title_size">22sp</dimen>
+    <dimen name="card_body_size">17sp</dimen>
+    <dimen name="contact_icon_size">40sp</dimen>
+</resources>

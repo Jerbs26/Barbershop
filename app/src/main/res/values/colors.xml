@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Brand colors -->
+    <color name="brand_gold">#FFEB3B</color>
+    <color name="brand_dark_blue">#1C3A52</color>
+    <color name="brand_green">#2E7D32</color>
+
+    <!-- Light mode -->
+    <color name="light_background">#FFFFFF</color>
+    <color name="light_surface">#F5F5F5</color>
+    <color name="light_card">#FFFFFF</color>
+    <color name="light_text_primary">#000000</color>
+    <color name="light_text_secondary">#555555</color>
+    <color name="light_divider">#CCCCCC</color>
+
+    <!-- Dark mode -->
+    <color name="dark_background">#121212</color>
+    <color name="dark_surface">#1E1E1E</color>
+    <color name="dark_card">#2C2C2C</color>
+    <color name="dark_text_primary">#FFFFFF</color>
+    <color name="dark_text_secondary">#AAAAAA</color>
+    <color name="dark_divider">#444444</color>
+
+    <!-- Backgrounds -->
+    <color name="about_bg">#1C1510</color>
+    <color name="about_border">#3D2E1E</color>
+    <color name="about_border_light">#2A1F14</color>
+
+    <!-- Gold / Accent -->
+    <color name="gold_primary">#FFEB3B</color>
+    <color name="gold_secondary">#FFC107</color>
+    <color name="gold_tertiary">#FF9800</color>
+
+    <!-- Text -->
+    <color name="text_primary">#F5ECD7</color>
+    <color name="text_secondary">#C4A97D</color>
+    <color name="text_muted">#7A6045</color>
+    <color name="text_dark">#111111</color>
+
+    <!-- Avatar backgrounds -->
+    <color name="avatar_bg_1">#2C1F0E</color>
+    <color name="avatar_bg_2">#1A1C0E</color>
+    <color name="avatar_bg_3">#1A0E1C</color>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values-night/themes.xml  (DARK mode) -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Barbershop" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#FFEB3B</item>
+        <item name="colorOnPrimary">#000000</item>
+        <item name="colorSecondary">#FFEB3B</item>
+        <item name="colorOnSecondary">#000000</item>
+        <item name="colorPrimaryContainer">#2A2A2A</item>
+        <item name="colorOnPrimaryContainer">#FFFFFF</item>
+        <item name="android:colorBackground">#121212</item>
+        <item name="colorSurface">#1E1E1E</item>
+        <item name="colorOnSurface">#EEEEEE</item>
+        <item name="android:textColorPrimary">#EEEEEE</item>
+        <item name="android:textColorSecondary">#AAAAAA</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:statusBarColor">#121212</item>
+    </style>
+
+    <style name="Theme.Barbershop" parent="Base.Theme.Barbershop" />
+
+</resources>

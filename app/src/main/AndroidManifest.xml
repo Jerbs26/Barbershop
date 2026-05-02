@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Barbershop">
+        <activity
+            android:name=".util.GcashPaymentDialog"
+            android:exported="false" />
+        <activity
+            android:name=".user.RateExperience"
+            android:exported="false" />
+        <activity
+            android:name=".user.FaceShapeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".util.DialogLogout"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminBase"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminFeedback"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminSchedules"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminOrders"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminProducts"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminServices"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminBarbers"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminBookings"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminAnalytics"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".auth.logIn"
+            android:exported="false" />
+        <activity
+            android:name=".user.Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".user.Barbers"
+            android:exported="false" />
+        <activity
+            android:name=".user.Services"
+            android:exported="false" />
+        <activity
+            android:name=".user.Products"
+            android:exported="false" />
+        <activity
+            android:name=".user.History"
+            android:exported="false" />
+        <activity
+            android:name=".user.Ratings"
+            android:exported="false" />
+        <activity
+            android:name=".user.Cart"
+            android:exported="false" />
+        <activity
+            android:name=".user.confirmation"
+            android:exported="false" />
+        <activity
+            android:name=".user.OrderConfirmation"
+            android:exported="false" />
+        <activity
+            android:name=".auth.SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".auth.ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".user.VerifyOTP"
+            android:exported="false" />
+        <activity
+            android:name=".auth.ResetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".auth.OtpVerification"
+            android:exported="false" />
+        <activity
+            android:name=".user.about_us"
+            android:exported="false" />
+        <activity
+            android:name=".user.contact_us"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
